@@ -4,20 +4,20 @@
         "enabled": true,
         "checkInterval": 30
     },
-    "consoleTimezone": "",
+    "consoleTimezone": "UTC-08:00",
     "bot": {
         "token": "",
-        "publicKey": "",
-        "id": ""
+        "publicKey": "6da8e9bff77cee95259f3631844d88e788766d722bdeb1b494eaaa7a866848af",
+        "id": "1403916139364618330"
     },
     "syncServerPunishments": false,
     "servers": [
         {
-            "name": "Cool Server",
+            "name": "Newbie's Haven",
             "rcon": {
-                "host": "123.123.123.123",
-                "port": 1234,
-                "password": "password",
+                "host": "173.214.160.10",
+                "port": 7378,
+                "password": "iloveyouchezz",
                 "adminListSaving": true,
                 "ignoreGlobalPunishments": false,
                 "teleportSystem": false,
@@ -29,17 +29,17 @@
                 "punishments": {
                     "shouldSave": true,
                     "types": {
-                        "kicks": false,
+                        "kicks": true,
                         "bans": true,
                         "unbans": true,
                         "mutes": true,
-                        "unmutes": false
+                        "unmutes": true
                     }
                 },
                 "status": {
-                    "updateInterval": 5,
-                    "channel": "",
-                    "showPlayerList": false,
+                    "updateInterval": 1,
+                    "channel": "1403914408790589591",
+                    "showPlayerList": true,
                     "hideIPPort": false,
                     "fallbackValues": {
                         "serverName": "",
@@ -49,7 +49,7 @@
                     }
                 },
                 "mapVote": {
-                    "enabled": true,
+                    "enabled": false,
                     "voteDuration": 30,
                     "voteCooldown": 240,
                     "voteThreshold": 0.6,
@@ -71,12 +71,12 @@
                     "channel": ""
                 },
                 "logChannels": {
-                    "chat": "",
-                    "punishments": "",
-                    "activity": "",
+                    "chat": "1403918581829210282",
+                    "punishments": "1403915175630999603",
+                    "activity": "1403918581829210282",
                     "wanted": "",
-                    "permanent": "",
-                    "automod": "",
+                    "permanent": "1403918870515028169",
+                    "automod": "1403915175630999603",
                     "killstreak": "",
                     "adminCalls": "",
                     "warns": ""
@@ -206,8 +206,8 @@
                 "receiveMentions": false
             },
             {
-                "name": "Admins",
-                "Ids": [""],
+                "name": "Moderator",
+                "Ids": ["1403906499541078086"],
                 "commands": [
                     "admins",
                     "ban",
@@ -232,8 +232,8 @@
                 "receiveMentions": false
             },
             {
-                "name": "Owner",
-                "Ids": [""],
+                "name": "Administrator",
+                "Ids": ["1403906218170253363"],
                 "commands": [
                     "admins",
                     "teleportadd",
@@ -272,15 +272,15 @@
         ]
     },
     "mordhau": {
-        "accountId": ""
+        "accountId": "43D6ADFB6837F7F2"
     },
     "steam": {
-        "key": ""
+        "key": "007F8755C2C609D86D52859EDCF6EEA7"
     },
     "database": {
-        "host": "",
-        "database": "",
-        "username": "",
-        "password": ""
+        "host": "newbielog.rfx9q2u.mongodb.net",
+        "database": "NewbieLog",
+        "username": "rnelson1551",
+        "password": "Sandman21"
     }
 }
